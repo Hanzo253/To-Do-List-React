@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 500px;
+  border: 1px solid forestgreen;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #6f42c1;
+  padding-bottom: 20px;
+}
+
+.todo {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.todo.checked {
+  border-left: 5px solid darkred;
+  text-decoration: line-through;
+}
+
+.todo h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons {
+  padding-bottom: 30px;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
